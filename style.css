@@ -1,6 +1,10 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+/* To merg cells */
+table {
+    border-collapse: collapse;
+  }
 #head{
     height: 14em;
     background-color: #fb4447;
@@ -10,14 +14,18 @@ body{
     letter-spacing: 0.2em;
     padding-left: 5.5em;
     padding-top: 0em; 
+    margin: 0;
+    padding-bottom: 2em;
 }
 #intro{
-    padding-bottom: 0px;
+    /* padding-bottom: 0px; */
+    margin: 0;
     font-size: 3em;
     font-weight: bold;
     letter-spacing: 0.2em;
     padding-left: 2em;
     padding-top: 1em;
+    /* padding-bottom: 1em; */
 }
 
 #left-column{
@@ -37,7 +45,6 @@ body{
 }
 hr{
     background-color: #fb4447;
-    /* color: #fb4447; */
     height: 3px;
 }
 img{
