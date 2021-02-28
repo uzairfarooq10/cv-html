@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color:silver ;
 }
 /* To merg cells */
 table {
@@ -38,6 +39,7 @@ table {
     padding-left: 45px;
     padding-top: 5em;
     border-top: #2a374a;
+    background-color: white;
     
 }
 #c1{
@@ -53,4 +55,10 @@ img{
 }
 body{
     margin: 30px 200px; 
+}
+#a{
+    margin-bottom:0 ;
+}
+#b{
+
 }
